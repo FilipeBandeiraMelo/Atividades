@@ -1,0 +1,22 @@
+		Aristóteles | Sócrates  |  Platão
+
+Física:             1ª		3ª S<P	     2ª
+Matemática:    nPrimeiro/3º	 2º	    1ª P>A
+Química:       nPrimeiro/2º	 1ª	    3ª
+
+
+[fisica]
+Se Aristóteles não é o primeiro em química, nem o primeiro em matemática, ele é o primeiro em física.
+Se Sócrates perdeu para Platão em física, e este não é o primeiro, então Sócrates é o terceiro.
+
+[matemática]
+Se Platão acertou mais que Sócrates em Matemática, e Arístóteles não pode ser o primeiro(porque já é em física), então Platão é o primeiro.
+
+[Quimica]
+Se Platão ficou em segundo em física e em primeiro em matemática, então ele é o terceiro em química.
+Se Aristóteles não pode ser o primeiro ou o terceiro em química, então é o segundo.
+Restou Sócrates como primeiro.
+
+[matemática]
+voltando para a matemática, basta preencher os espaços que restaram
+Aristóteles em terceirio e Sócrates em segundo
