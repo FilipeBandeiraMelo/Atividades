@@ -1,0 +1,3 @@
+O professor organizou os alunos em linhas e colunas ordenando 4 de uma matéria e 2 de outra, após a alteração, 
+ao voltar o professor percebeu que uma coluna e uma linha estavam com 3 matérias de cada, logo percebeu que na interseção entre elas, notou que o aluno de matemática foi trocado pelo de português.
+*obs: Há um problema na questão, pois se foi uma troca de aluno, para onde foi o aluno de matemática? A questão da a entender que não foi uma troca de alunos, e sim a troca de matéria de um aluno.
