@@ -1,0 +1,35 @@
+Var
+
+nome, endereco, cidade, nomeDoPai, nomeDaMae: caractere
+
+cpf, rg, idade: inteiro
+
+peso, rendaBruta: real
+
+Inicio
+
+leia (nome)
+leia (endereco)
+leia (cidade)
+leia (cpf)
+leia (rg)
+leia (idade)
+leia (nomeDoPai)
+leia (nomeDaMae)
+leia (peso)
+leia (rendaBruta)
+
+escreval (nome)
+escreval (endereco)
+escreval (cidade)
+escreval (cpf)
+escreval (rg)
+escreval (idade)
+escreval (nomeDoPai)
+escreval (nomeDaMae)
+escreval (peso)
+escreval (rendaBruta)
+
+
+
+
