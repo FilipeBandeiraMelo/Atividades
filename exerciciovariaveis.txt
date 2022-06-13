@@ -1,0 +1,20 @@
+1. A proposta das variáveis:
+
+Armazenar dados para cadastro
+
+2. Elaborada a declaração das variáveis:
+
+Nome: caractere
+CPF: inteiro
+RG: inteiro
+Altura: real
+Endereço: caractere
+
+
+3. Utilizado o comando de atribuição:
+
+Nome <- José Almeida da Silva
+CPF <- 12345678900
+RG <- 9517530
+Altura <- 1.78
+Endereço <- Rua A, 380 – Centro – Recife/PE
