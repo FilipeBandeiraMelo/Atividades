@@ -1,0 +1,120 @@
+Algoritmo "alunos"
+//Instruções do projeto
+//Após uma prova de vestibular, uma escola quer identificar quantos dos seus alunos foram aprovados em cada turma de formandos. Ela quer saber qual aluno teve a maior nota e de qual turma ele é. Nessa escola, há quatro turmas (A, B, C e D) com vinte e cinco alunos cada.
+//Elabore um algoritmo que solicite o nome e a nota do vestibular aos alunos. Depois, informe quantos deles foram aprovados, de que turma são, qual a maior nota em cada turma e qual aluno teve a maior nota de todas.
+//Para que o aluno seja aprovado no vestibular, ele deverá obter nota maior ou igual a 7.
+//ATENÇÃO: As notas por turma não podem se repetir.
+Var
+nomeA, nomeB, nomeC, nomeD, turma : caractere
+maximo: real
+nomeMaximo: caractere
+notaA, notaB, notaC, notaD: real
+maiorNotaA, maiorNotaB, maiorNotaC, maiorNotaD: real
+contador: inteiro
+numeroDeAprovadosA , numeroDeAprovadosB, numeroDeAprovadosC, numeroDeAprovadosD: inteiro
+nomeMaiorNotaA, nomeMaiorNotaB, nomeMaiorNotaC, nomeMaiorNotaD: caractere
+cont: inteiro
+totalAprovados: inteiro
+
+Inicio
+numeroDeAprovadosA <- 0
+maiorNotaA <- 0
+cont <- 0
+enquanto (cont <  4) faca
+
+escreval ("escolha entre as turmas A, B, C e D")
+leia (turma)
+escolha turma
+caso "A"
+      PARA contador de 1 ate 25 faca
+      escreval ("digite seu nome")
+      leia (nomeA)
+      escreval ("digite sua nota")
+      leia (notaA)
+		     se notaA >=7 entao
+                      numeroDeAprovadosA <- numeroDeAprovadosA + 1
+                      fimse
+                      se (notaA > maiorNotaA) entao
+                      nomeMaiorNotaA <- nomeA
+                      maiorNotaA <- notaA
+           fimse
+      FIMPARA
+caso "B"
+      PARA contador de 1 ate 25 faca
+      escreval ("digite seu nome")
+      leia (nomeB)
+      escreval ("digite sua nota")
+      leia (notaB)
+		     se notaB >=7 entao
+                      numeroDeAprovadosB <- numeroDeAprovadosB + 1
+                      fimse
+                      se (notaB > maiorNotaB) entao
+                      nomeMaiorNotaB <- nomeB
+                      maiorNotaB <- notaB
+           fimse
+      FIMPARA
+caso "C"
+      PARA contador de 1 ate 25 faca
+      escreval ("digite seu nome")
+      leia (nomeC)
+      escreval ("digite sua nota")
+      leia (notaC)
+		     se notaC >=7 entao
+                      numeroDeAprovadosC <- numeroDeAprovadosC + 1
+                      fimse
+                      se (notaC > maiorNotaC) entao
+                      nomeMaiorNotaC <- nomeC
+                      maiorNotaC <- notaC
+           fimse
+       FIMPARA
+caso "D"
+      PARA contador de 1 ate 25 faca
+      escreval ("digite seu nome")
+      leia (nomeD)
+      escreval ("digite sua nota")
+      leia (notaD)
+		     se notaC >=7 entao
+                      numeroDeAprovadosD <- numeroDeAprovadosD + 1
+                      fimse
+                      se (notaD > maiorNotaD) entao
+                      nomeMaiorNotaD <- nomeD
+                      maiorNotaD <- notaD
+           fimse
+      FIMPARA
+fimescolha
+cont <- cont + 1
+fimenquanto
+se maiorNotaA > maiorNotaB entao
+   maximo <- maiorNotaA
+   nomeMaximo <- nomeMaiorNotaA
+   senao
+        se	maiorNotaB > maiorNotaC entao
+	         maximo <- maiorNotaB
+	         nomeMaximo <- nomeMaiorNotaB
+        senao
+             se	maiorNotaC > maiorNotaD entao
+                  maximo <- maiorNotaC
+                  nomeMaximo <- nomeMaiorNotaC
+             senao
+                  maximo <- maiorNotaD
+                  nomeMaximo <- nomeMaiorNotaD
+             fimse
+       fimse
+    fimse
+
+totalAprovados <- numeroDeAprovadosA + numeroDeAprovadosB + numeroDeAprovadosC + numeroDeAprovadosD
+
+escreval (totalAprovados, " é o número total de aprovados")
+escreval ("na turma A foram aprovados", numeroDeAprovadosA, " alunos")
+escreval ("na turma B foram aprovados", numeroDeAprovadosB, " alunos")
+escreval ("na turma C foram aprovados", numeroDeAprovadosC, " alunos")
+escreval ("na turma D foram aprovados", numeroDeAprovadosD, " alunos")
+escreval (nomeMaiorNotaA, " tirou", maiorNotaA, " que é a maior nota da turma A")
+escreval (nomeMaiorNotaB, " tirou", maiorNotaB, " que é a maior nota da turma B")
+escreval (nomeMaiorNotaC, " tirou", maiorNotaC, " que é a maior nota da turma C")
+escreval (nomeMaiorNotaD, " tirou", maiorNotaD, " que é a maior nota da turma D")
+escreval ("A maior nota geral foi ",maximo, " tirada por ", nomeMaximo)
+
+
+
+Fimalgoritmo
