@@ -1,0 +1,126 @@
+Var
+
+resposta : caractere
+
+
+
+Inicio
+
+escreval ("é terrestre?")
+leia (resposta)
+escolha resposta
+caso "sim"
+     escreva ("cabe apenas uma pessoa?")
+         leia(resposta)
+         escolha resposta
+         caso "sim"
+              escreva ("é pesado?")
+              leia (resposta)
+              escolha resposta
+              caso "sim"
+                   escreva ("tem pedal?")
+                   leia (resposta)
+                   escolha resposta
+                   caso "sim"
+                   escreva ("então você escolheu a moto")
+                   caso "nao"
+                   escreva ("então você escolheu o trator")
+              caso "nao"
+                   escreva ("tem pedal?")
+                   leia (resposta)
+                   escolha resposta
+                   caso "sim"
+                        escreva ("então você escolheu a bicicleta")
+              outrocaso
+                       escreva("você mentiu em algum momento")
+         caso "nao"
+              escreva ("é pesado?")
+              leia (resposta)
+              escolha resposta
+              caso "sim"
+                   escreva ("transporta pessoas?")
+                   leia(resposta)
+                   escolha resposta
+                   caso "sim"
+                        escreva ("funciona em trilhos?")
+                        leia (resposta)
+                        escolha resposta
+                        caso "sim"
+                             escreva ("então você escolheu o trem")
+                        caso "nao"
+                             escreva ("entao você escolheu o ônibus")
+                        outrocaso
+                                 escreva("por favor responder com sim ou nao")
+                  caso "nao"
+                       escreva ("então você escolheu o caminhão")
+                  outrocaso
+                           escreva("por favor responder com sim ou nao")
+             caso "nao"
+                  escreva ("então você escolheu o carro")
+             outrocaso
+                  escreva("por favor responder com sim ou nao")
+         outrocaso
+                  escreva("por favor responder com sim ou nao")
+caso "nao"
+     escreva ("é aquático?")
+     leia (resposta)
+     escolha resposta
+     caso "sim"
+          escreva ("é pesado?")
+          leia (resposta)
+          escolha resposta
+          caso "sim"
+               escreva ("submerge?")
+               leia (resposta)
+               escolha resposta
+               caso "sim"
+                    escreva ("então você escolheu o submarino")
+               caso "nao"
+                    escreva ("então você escolheu o navio")
+               outrocaso
+                        escreva("por favor responder com sim ou nao")
+          caso "nao"
+             escreva ("é veloz?")
+             leia (resposta)
+             escolha resposta
+             caso "sim"
+                  escreva ("então você escolheu a lancha")
+             caso "nao"
+                  escreva ("então você escolheu o barco")
+             outrocaso
+                      escreva("por favor responder com sim ou nao")
+         outrocaso
+                escreva("por favor responder com sim ou nao")
+    caso "nao"
+         escreva ("é pesado?")
+         leia (resposta)
+         escolha resposta
+         caso "sim"
+              escreva ("utiliza heliporto?")
+              leia (resposta)
+              escolha resposta
+              caso "sim"
+                   escreva ("então você escolheu o helicóptero")
+              caso "nao"
+                   escreva ("então você escolheu o avião")
+              outrocaso
+                       escreva("por favor responder com sim ou nao")
+         caso "nao"
+              escreva ("é inflável?")
+              leia (resposta)
+              escolha resposta
+              caso "sim"
+                   escreva ("então você escolheu o balão")
+              caso "nao"
+                   escreva ("então você escolheu o paraquedas")
+              outrocaso
+                       escreva("por favor responder com sim ou nao")
+         outrocaso
+                  escreva("por favor responder com sim ou nao")
+     outrocaso
+              escreva("por favor responder com sim ou nao")
+outrocaso
+         escreva("por favor responder com sim ou nao")
+fimescolha
+
+Fimalgoritimo
