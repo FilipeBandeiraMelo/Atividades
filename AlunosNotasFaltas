@@ -1,0 +1,27 @@
+const nota1 = 10;
+const nota2 = 10;
+const faltas = 3;
+
+function aluno(nome){
+    return nome;
+}
+
+function media(n1, n2) {
+    return (n1 + n2) / 2
+}
+
+function statusAprovacao(media) {
+    
+    if (media < 7) {
+        return "Reprovado";
+    } else if (media >= 7 && faltas >= 3) {
+        return "Reprovado";
+    } else {
+        return "Aprovado";
+    }
+}
+
+const mediaFinal = media(nota1, nota2);
+const statusFinal = statusAprovacao(mediaFinal);
+
+console.log(`O aluno ${aluno("Carlos")} foi ${statusFinal}`)
