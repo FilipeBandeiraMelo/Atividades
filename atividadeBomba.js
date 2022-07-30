@@ -6,25 +6,20 @@
 
 function sleep(ms) {
     return new Promise(
-      resolve => setTimeout(resolve, ms)
+        resolve => setTimeout(resolve, ms)
     );
-  }
-  
-  async function delayedGreeting() {
+}
+
+async function delayedGreeting() {
     await sleep(1000)
     console.log("iniciando contagem regressiva");
     await sleep(2000)
-    console.log(5);
-    await sleep(1000);
-    console.log(4);
-    await sleep(1000);
-    console.log(3);
-    await sleep(1000);
-    console.log(2);
-    await sleep(1000);
-    console.log(1);
-    await sleep(1000);
+    for (let i = 5; i >= 1; i--) {
+        await sleep(1000)
+        console.log(i);
+    }
+    await sleep(1000)
     console.log("BUM!!!");
-  }
-  
-  delayedGreeting();
+}
+
+delayedGreeting();
