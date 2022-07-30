@@ -11,7 +11,6 @@ function sleep(ms) {
 }
 
 async function delayedGreeting() {
-    await sleep(1000)
     console.log("iniciando contagem regressiva");
     await sleep(2000)
     for (let i = 5; i >= 1; i--) {
@@ -23,3 +22,5 @@ async function delayedGreeting() {
 }
 
 delayedGreeting();
+
+//A sugestão da atividade era fazer em python com a função time.sleep(), porém decidi converter para javascript que é a linguagem estudada no curso.
