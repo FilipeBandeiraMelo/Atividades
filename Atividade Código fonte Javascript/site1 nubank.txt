@@ -1,0 +1,1 @@
+site nubank, área marcada se refere um objeto com chaves e valores
