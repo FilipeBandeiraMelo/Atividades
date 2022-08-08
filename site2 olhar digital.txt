@@ -1,0 +1,1 @@
+site olhar digital, área marcada se refere a armazenação de variáveis em javascript.
