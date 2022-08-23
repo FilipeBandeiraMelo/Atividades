@@ -1,0 +1,41 @@
+\\Classifique dois objetos materiais e dois abstratos. Insira, no mínimo, três métodos e três atributos para cada.
+
+Objeto: Televisao(material)
+
+	Métodos: 	ligar()
+			      desligar()
+			      trocar_canal()
+
+	Atributos:	cor
+			        modelo
+			        ano de Fabricação
+
+Objeto: Gato(material)
+
+	Métodos: 	lamber()
+			      andar()
+			      comer()
+
+	Atributos:	nome
+			        raca
+			        idade
+
+Objeto: Musica(abstrato)
+
+	Métodos: 	reproduzir()
+			      pausar()
+			      acelerar()
+
+	Atributos:	partitura
+			        gênero
+			        autor(a)
+
+Objeto: Consultoria(abstrato)
+
+	Métodos: 	aconselhar()
+			      apontar_dados()
+			      cancelar()
+
+	Atributos:	data
+			        tipo
+			        proposito
