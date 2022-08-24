@@ -1,0 +1,21 @@
+//Crie dois pacotes baseados nas atribuições de uma empresa e inclua classes neles. Lembre-se de trabalhar com os padrões Java.
+
+package br.com.santander.contas.main;
+
+import br.com.santander.contas.Banco;
+
+public class Bank {
+
+	public static void main(String[] args) {
+		Banco meuBanco = new Banco();
+		meuBanco.nome = "Santander";
+	}
+
+}
+
+package br.com.santander.contas;
+
+class Cliente {
+    String nome;
+    String endereco;
+}
