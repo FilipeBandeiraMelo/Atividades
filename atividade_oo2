@@ -1,0 +1,23 @@
+#Crie uma classe de sua preferência com, no mínimo, uma variável, um método e um incremento. Depois, desenvolva três ou mais objetos para testar o código.
+
+class animal:
+    def __init__(self, nome, especie, racao):
+        self.nome = nome
+        self.especie = especie
+        self.racao = racao
+
+    def saudacao(self):
+        print(f"Olá! Meu nome é {self.nome} e minha espécie é {self.especie}.")
+
+    def aumentarRacao(self, qnt=1000):
+        self.racao += qnt
+        print(f"A quantidade da racao que era {self.nome} agora é de {self.racao}!")
+
+
+ani1 = animal("Juarez", "Papagaio", 300)
+ani2 = animal("Jaspion", "Gato", 1200)
+ani3 = animal("Cerberus", "Cachorro", 1500)
+
+ani2.saudacao()
+print(f"{ani2.nome} recebia {ani2.racao}...")
+ani2.aumentarRacao(3000)
