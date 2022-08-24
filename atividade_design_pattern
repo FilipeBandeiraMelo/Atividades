@@ -1,0 +1,16 @@
+Chain Of Responsibility
+
+É o primeiro na lista dos padrões comportamentais, sendo extremamente fácil de implementar e que pode ser muito útil como solução adotada dentro de um sistema corporativo, pois impõe um alto grau de coerência ao código, 
+força um baixo acoplamento, utiliza muito bem recursos de polimorfismo e é capaz de automatizar um processo sem encadeamentos desnecessários.
+
+Esse design pattern promete acabar com o encadeamento excessivo, que é visto como uma das principais causas da ocorrência de alto acoplamento e até mesmo criando “baixa 
+coerência” no código por conta de encadeamentos desnecessários e sem sentido.
+
+O design pattern Chain Of Responsibility permite determinar quem será o objeto que irá tratar uma requisição em tempo de execução. Dessa forma, cada objeto pode tratar ou
+passar a responsabilidade para o próximo, construindo uma cadeia de responsabilidades.
+
+O trecho a seguir toma a definição do livro Patterns: Elements of Reusable Object-Oriented Software em relação à intenção desse padrão: “Evitar o acoplamento do remetente
+de uma solicitação. Encadear os objetos receptores, passando a solicitação ao longo da cadeia até que um objeto a trate... GoF Pág. 212.”
+
+Essa é a grande motivação para o uso desse pattern: acabar com as estruturas de decisão, criando uma cadeia de objetos. A responsabilidade é passada entre eles até 
+finalmente ser tratada por quem tiver a devida competência.
