@@ -1,0 +1,23 @@
+01 public class Serializer {
+02  public static void main(String... args) throws Exception { //imports omitidos
+03    Vinhovinho = new Vinho();
+04    vinho.setNome("Malbec");
+05    vinho.setTipo(“Rose”);
+06 
+07    FileOutputStream fOut = new FileOutputStream("C:\\vinhos.ser");
+08    ObjectOutputStream oOut = new ObjectOutputStream(fOut);
+09    oOut.writeObject(vinho);
+10    oOut.close();
+11    System.out.println("Objeto serializado.");
+12  }
+13}
+
+01 public class Deserializer {
+ 02 public static void main(String... args) throws Exception {
+ 03   FileInputStream fOut= new FileInputStream("C:\\vinhos.ser");
+ 04   ObjectInputStream oOut= new ObjectInputStream(fOut);
+ 05   Vinhovinho = (Vinho) oOut.readObject();
+ 06   oOut.close();
+ 07 
+ 08   System.out.println("Objeto deserializado.");
+ 09 }
